@@ -1,8 +1,8 @@
 string generate(int length) {
-    string symbols = "1234567890abcdefthijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    string final = "";
-    for (uint i = 0; i < length; i += 1) {
-        final += symbols[random(0, symbols.length() - 1)];
-    }
-    return final;
+	string symbols = "1234567890abcdefthijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	string final = "";
+	for (uint i = 0; i < length; i += 1) {
+		final += symbols[random(0, symbols.length() - 1)];
+	}
+	return final;
 }
