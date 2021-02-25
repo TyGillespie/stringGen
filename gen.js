@@ -12,3 +12,7 @@ function generate(length=8) {
 	}
 	return final;
 }
+
+module.exports = {
+  generate,
+};
