@@ -1,5 +1,0 @@
-#include "gen.bgt";
-void main() {
-	alert("Example", generate(5));
-	alert("Example", generate(25) + "-" + generate(25));
-}
